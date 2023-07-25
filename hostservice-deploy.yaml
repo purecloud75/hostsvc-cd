@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        image: purecloud75/node-app:cdeacd20f9b98645d4ee7a91ecfc8f9e707b8813
+        image: purecloud75/hostservice:225ae298391c37265c823f0caec9072cae3ad679
         resources:
           limits:
             memory: "128Mi"
